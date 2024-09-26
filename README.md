@@ -25,6 +25,34 @@ This project is a real-time price comparison web application that fetches price 
 - Node.js and npm should be installed on your machine.
 - You will need a Gemini API key to fetch the price data.
 
+## Project Structure
+
+The project follows a structured and organized layout for better readability and maintainability. Below is an outline of the project structure:
+
+```bash
+
+├── views
+│   ├── index.ejs           # Main page template to display the price comparison
+├── routes
+│   ├── index.js            # Handles API calls and data rendering
+├── public
+│   ├── css
+│   │   └── styles.css      # CSS file for styling the webpage
+│   ├── js
+│   │   └── script.js       # JavaScript file for front-end interaction (if needed)
+├── app.js                  # Main application file that initializes the server
+├── package.json            # Contains project dependencies and scripts
+├── package-lock.json       # Auto-generated file for locking dependency versions
+ ```
+
+
+### API Usage
+
+This project makes use of the Gemini API to fetch real-time price data. You can find more details about Gemini's API here:https://gemini.google.com/app?hl=en-IN.
+
+
+
+
 ### Installation
 
 1. Clone the repository:
